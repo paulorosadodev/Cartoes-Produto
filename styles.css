@@ -20,13 +20,17 @@
     box-shadow: 5px 6px 7px #333;
     padding: 0 0 24px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 img{
     width: 200px;
     height: 200px;
 }
 p {
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     color: #333;
 }
@@ -35,9 +39,7 @@ h1 {
     color: #000000;
 }
 
-.price-box {
-    margin-top: auto;
-}
+
 
 .price {
     font-size: 30px;
